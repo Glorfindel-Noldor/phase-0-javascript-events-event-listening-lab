@@ -1,5 +1,9 @@
-const noise = document.getElementById('button')
-function secondArgumentWhatItShouldDo(){
-    alert('what it does')
+function addingEventListener(){
+    alert('button masher');
 }
-noise.addEventListener('click',secondArgumentWhatItShouldDo)
+const noise = document.getElementById('button');
+
+
+
+
+noise.addEventListener('click', addingEventListener);
